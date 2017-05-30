@@ -10,7 +10,6 @@
 		154A77D016C1EFF68047193F /* libPods-car2go_sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D496453430ECCA89860EFCFD /* libPods-car2go_sample.a */; };
 		E934CC141ED84C14002C9284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E934CC131ED84C14002C9284 /* main.m */; };
 		E934CC171ED84C14002C9284 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E934CC161ED84C14002C9284 /* AppDelegate.m */; };
-		E934CC1A1ED84C14002C9284 /* FMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E934CC191ED84C14002C9284 /* FMViewController.m */; };
 		E934CC1D1ED84C14002C9284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E934CC1B1ED84C14002C9284 /* Main.storyboard */; };
 		E934CC1F1ED84C14002C9284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E934CC1E1ED84C14002C9284 /* Assets.xcassets */; };
 		E934CC221ED84C14002C9284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E934CC201ED84C14002C9284 /* LaunchScreen.storyboard */; };
@@ -25,6 +24,7 @@
 		E9BB32991EDAD9DA00B7C595 /* ClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BB32981EDAD9DA00B7C595 /* ClusterAnnotationView.m */; };
 		E9BB650E1ED9B53C00F05F94 /* FMAnnotationCurrent.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BB650D1ED9B53C00F05F94 /* FMAnnotationCurrent.m */; };
 		E9BB65111ED9E50500F05F94 /* NSMutableArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BB65101ED9E50500F05F94 /* NSMutableArray+Sort.m */; };
+		E9BFD04F1EDE1FB700D89391 /* FMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BFD04E1EDE1FB700D89391 /* FMViewController.m */; };
 		E9E86F1A1ED9688F0059D05D /* FMAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E86F171ED9688F0059D05D /* FMAlert.m */; };
 		E9E86F1B1ED9688F0059D05D /* FMProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E86F191ED9688F0059D05D /* FMProgress.m */; };
 		E9E86F271ED96AE70059D05D /* FMLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E86F221ED96AE70059D05D /* FMLocationManager.m */; };
@@ -49,8 +49,6 @@
 		E934CC131ED84C14002C9284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E934CC151ED84C14002C9284 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E934CC161ED84C14002C9284 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E934CC181ED84C14002C9284 /* FMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMViewController.h; sourceTree = "<group>"; };
-		E934CC191ED84C14002C9284 /* FMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMViewController.m; sourceTree = "<group>"; };
 		E934CC1C1ED84C14002C9284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E934CC1E1ED84C14002C9284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E934CC211ED84C14002C9284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +73,8 @@
 		E9BB650D1ED9B53C00F05F94 /* FMAnnotationCurrent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMAnnotationCurrent.m; path = View/FMAnnotationCurrent.m; sourceTree = "<group>"; };
 		E9BB650F1ED9E50500F05F94 /* NSMutableArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Sort.h"; path = "Category/NSMutableArray+Sort.h"; sourceTree = "<group>"; };
 		E9BB65101ED9E50500F05F94 /* NSMutableArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Sort.m"; path = "Category/NSMutableArray+Sort.m"; sourceTree = "<group>"; };
+		E9BFD04D1EDE1FB700D89391 /* FMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMViewController.h; path = ViewController/FMViewController.h; sourceTree = "<group>"; };
+		E9BFD04E1EDE1FB700D89391 /* FMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMViewController.m; path = ViewController/FMViewController.m; sourceTree = "<group>"; };
 		E9E86F161ED9688F0059D05D /* FMAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMAlert.h; path = Utility/FMAlert.h; sourceTree = "<group>"; };
 		E9E86F171ED9688F0059D05D /* FMAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMAlert.m; path = Utility/FMAlert.m; sourceTree = "<group>"; };
 		E9E86F181ED9688F0059D05D /* FMProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMProgress.h; path = Utility/FMProgress.h; sourceTree = "<group>"; };
@@ -252,8 +252,8 @@
 		E9E86F421ED975140059D05D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E934CC181ED84C14002C9284 /* FMViewController.h */,
-				E934CC191ED84C14002C9284 /* FMViewController.m */,
+				E9BFD04D1EDE1FB700D89391 /* FMViewController.h */,
+				E9BFD04E1EDE1FB700D89391 /* FMViewController.m */,
 				E9E86F431ED975F00059D05D /* FMViewController+Api.h */,
 				E9E86F441ED975F00059D05D /* FMViewController+Api.m */,
 				E9E86F3F1ED971100059D05D /* FMViewController+Location.h */,
@@ -403,11 +403,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E94A63851ED98E6C002AA778 /* FMPinAnnotationView.m in Sources */,
-				E934CC1A1ED84C14002C9284 /* FMViewController.m in Sources */,
 				E9BB32951EDA0C7B00B7C595 /* FMTableViewCell.m in Sources */,
 				E934CC171ED84C14002C9284 /* AppDelegate.m in Sources */,
 				E9E86F451ED975F00059D05D /* FMViewController+Api.m in Sources */,
 				E9E86F3E1ED96F310059D05D /* FMViewController+Map.m in Sources */,
+				E9BFD04F1EDE1FB700D89391 /* FMViewController.m in Sources */,
 				E9BB65111ED9E50500F05F94 /* NSMutableArray+Sort.m in Sources */,
 				E9BB32991EDAD9DA00B7C595 /* ClusterAnnotationView.m in Sources */,
 				E9E86F411ED971100059D05D /* FMViewController+Location.m in Sources */,
