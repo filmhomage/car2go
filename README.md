@@ -22,7 +22,11 @@ https://github.com/car2go/openAPI/wiki/Access-protected-Functions-via-OAuth-1.0
 pod install
 ```
 
-2. run ``` car2go_sample.xcworkspace ```
+2. open workspace file
+```sh 
+car2go_sample.xcworkspace 
+``` 
+
 
 
 ----
