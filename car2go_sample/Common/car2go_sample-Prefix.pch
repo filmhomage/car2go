@@ -1,0 +1,58 @@
+//
+//  car2go_sample-Prefix.pch
+//  car2go_sample
+//
+//  Created by Jonghyun Kim on 2017/05/29.
+//  Copyright © 2017 kokaru. All rights reserved.
+//
+
+#ifndef YDDiaryReport_Prefix_pch
+#define YDDiaryReport_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <Foundation/Foundation.h>
+#import <CommonCrypto/CommonDigest.h>
+#import <Mapkit/Mapkit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <CoreData/CoreData.h>
+
+#import <CoreLocation/CoreLocation.h>
+#import <LocalAuthentication/LocalAuthentication.h>
+#import <SVPulsingAnnotationView.h>
+#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFNetworkReachabilityManager.h>
+#import <AFNetworking/UIImageView+AFNetworking.h>
+#import <CCHMapClusterController.h>
+#import <Mantle/Mantle.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MagicalRecord/MagicalRecord.h>
+#import <MagicalRecord/MagicalRecord+ShorthandMethods.h>
+
+#import "FMMemoryUsage.h"
+#import "FMConstants.h"
+#import "AppDelegate.h"
+#import "Vehicles.h"
+#import "Coordinates.h"
+#import "FMPolylineRenderer.h"
+#import "FMAnnotation.h"
+#import "FMAnnotationCurrent.h"
+#import "FMPinAnnotationView.h"
+#import "FMViewController.h"
+#import "FMViewController+Map.h"
+#import "FMViewController+Api.h"
+#import "FMViewController+Location.h"
+#import "FMViewController+TableView.h"
+#import "FMTableViewCell.h"
+#import "NSMutableArray+Sort.h"
+#import "FMAPIManager.h"
+#import "FMUtility.h"
+#import "FMProgress.h"
+#import "FMAlert.h"
+#import "FMLocationManager.h"
+#import "FMUserDefaults.h"
+
+#endif /* YDDiaryReport_Prefix_pch */
