@@ -1,4 +1,4 @@
-### car2go_sample
+### car2go
 car2go iOS app
 
 ### Feature
