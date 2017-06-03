@@ -1,6 +1,9 @@
 ## car2go
 car2go iOS app
 
+
+[![Build Status](https://travis-ci.org/filmhomage/car2go.svg?branch=master)](https://travis-ci.org/filmhomage/car2go)
+
 ----
 
 ### Feature
